@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="">
+<meta name="description" content=""/>
+<meta name="Classification" content="">
+<meta name="viewport" content="width=device-width">
+<title>MQBC</title>
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'> -->
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+<![endif]-->  
+</head>
+<body>
+	<div class="top-line">Top Line</div>
+	<header>	
+		<div class="logo-nav">
+			<h1 class="logo"><img src="images/logo.png" alt="Mais que bom código"></h1>
+			<nav>
+				<ul>
+					<li><a href="#quem-somos">quem somos</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#contato">contato</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="computer">		
+			<p>
+				Desenvolvemos aplicativos<br>
+				para iPhone, iPad, Android e<br>
+				Windows Phone<br>
+				<span>entre em <a href="#">contato</a></span>
+			</p>
+		</div>	
+	</header>
+	<section class="about" id="quem-somos">
+		<h2>Quem somos</h2>
+		<p>
+			Somos um time de consultores, programadores e designers apaixonados por tecnologias móveis. Nos especializamos 
+			em desenvolvimento multiplataforma com <span>Appcelerator Titanium</span> e somos pioneiros no uso dessa ferramenta no Brasil.
+		</p>
+	</section>
+	<section class="services">
+		<h2>O que fazemos</h2>
+		<p>
+			Desenvolvemos aplicativos para as plataformas iOS, Android e Windows Phone de um jeito diferente. Como não suportamos desperdício 
+			de recursos, mesclamos desenvolvimento multiplataforma (sempre que possível) com desenvolvimento nativo (apenas quando necessário). 
+			Isso nos proporciona economia de recursos, sem precisarmos abrir mão das características únicas de cada plataforma.
+		</p>
+		<div class="services-description">
+			<ul>
+				<li>
+					<figure><img src="images/dev-icon.png" alt="Desenvolvimento"></figure>
+					<h3>Desenvolvimento</h3>
+					<p>Desenvolvemos aplicativos multiplataforma para smartphones e tablets</p>
+				</li>
+				<li>
+					<figure><img src="images/trainning-icon.png" alt="Treinamento"></figure>
+					<h3>Treinamento</h3>
+					<p>Treinamos equipes em desenvolvimento mobile multiplataforma</p>
+				</li>
+				<li>
+					<figure><img src="images/consulting-icon.png" alt="Consultoria"></figure>
+					<h3>Consultoria</h3>
+					<p>Ajudamos a materializar ideias e salvamos projetos em apuros</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="product"  id="portfolio">
+		<div class="product-content">
+			<h2>radiobeat</h2>
+			<p>
+				<span>radiobeat</span> é um produto do Sistema Globo de Rádio, empresa do Grupo Globo, um dos maiores 
+				conglomerados de comunicação do mundo.
+			</p>			
+		</div>
+		<div class="app">
+			<div class="app-content">
+				<p>
+					As apps que desenvolvemos para iOS e Android, possuem diversas rádios ao vivo e centenas 
+					de playlists de vários estilos musicais, vibes e artistas para ouvir online e de graça. 
+					As trilhas sonoras de muitas das famosas novelas e minisséries  da TV Globo, também estão no <span>radiobeat</span>.
+				</p>
+				<ul>
+					<li><a href="#" target="_blank"><img src="images/appstore.png"></a></li>
+					<li><a href="#" target="_blank"><img src="images/google-play.png"></a></li>
+				</ul>
+			</div>
+		</div>		
+	</section>
+	<section class="contact" id="contato">
+		<div class="contact-content">
+			<h2>Entre em contato</h2>
+			<p>Nos fale sobre sua ideia, projeto ou necessidade e teremos prazer em avaliar como podemos ajudar.</p>
+			<div class="form-content">
+				<form name="contato" onSubmit="return validaForm()" method="post" action="enviar-contato.php">
+					<fieldset class="contact-data">					
+	                    <input id="nome" name="nome" type="text" placeholder="Nome"/><br />
+	                    <input id="telefone" name="telefone" type="text" placeholder="Telefone" /><br />                     
+	                    <input id="email" name="email" type="text" placeholder="E-mail"/><br />   
+	                    <textarea id="mensagem" rows="3" name="mensagem" placeholder="Mensagem"></textarea><br />
+	                    <input name="enviar" type="submit" value="Enviar"/>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-content">
+			<a href="#">Nos contate via Skype</a>
+			<p>(21) 3108-4263<br>Av. Presidente Vargas, 599, sala 1411, Centro, Rio de Janeiro - RJ</p>
+		</div>
+	</footer>
+	<div class="footer-line">Footer Line</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery-animate.js"></script>
+</body>
+</html>
