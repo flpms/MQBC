@@ -21,7 +21,7 @@ h2{
 	text-align:center;
 }
 
-.computer, .contact, .form-content input[type=text], .form-content textarea, footer, .form-content input[type=submit]{
+.computer, .contact, .form-content input[type=text], .form-content textarea, footer, .form-content button{
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -191,12 +191,6 @@ header{
 	-ms-transition:all 0.5s ease-in-out;
 	transition:all 0.5s ease-in-out;
 }
-.services-description ul li:hover figure{
-	transform:rotate(360deg);
-	-webkit-transform:rotate(360deg);
-	-ms-transform:rotate(360deg);
-	-moz-transform:rotate(360deg);
-}
 .services-description ul li:last-child{margin:0;}
 .services-description ul li:first-child{margin:0 18% 0 1%;}
 .services-description ul li h3{
@@ -329,7 +323,7 @@ header{
 ::-moz-placeholder{color:#ec524b;}=
 :-ms-input-placeholder{color:#ec524b;}
 
-.form-content input[type=submit]{
+.form-content button{
 	background-color:#fdca00 !important;
 	color:#ec524b;
 	width:100%;
@@ -350,7 +344,7 @@ header{
 	cursor:pointer;
 }
 
-.form-content input[type=submit]:hover{background-color:#eaff00;}
+.form-content button:hover{background-color:#eaff00;}
 
 /* CONTATO ****************************/
 
