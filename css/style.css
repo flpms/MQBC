@@ -2,10 +2,10 @@
 /* CSS Document */
 
 * {
-	font-family:'Open Sans', sans-serif;
-	padding:0;
-	margin:0;
-	outline:none;  
+  font-family:'Open Sans', sans-serif;
+  padding:0;
+  margin:0;
+  outline:none;  
 }
 
 img, fieldset{border:none;}
@@ -15,17 +15,17 @@ ul{list-style-type:none;}
 a{text-decoration:none;}
 
 h2{
-	font-size:38px;
-	font-weight:lighter;
-	color:#ec524b;
-	text-align:center;
+  font-size:38px;
+  font-weight:lighter;
+  color:#ec524b;
+  text-align:center;
 }
 
 .computer, .contact, .form-content input[type=text], .form-content textarea, footer, .form-content button{
-	box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-ms-box-sizing:border-box;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
 }
 
 /* RESET ****************************/
@@ -33,115 +33,116 @@ h2{
 /* TOPO ****************************/
 
 .top-line{
-	width:100%;
-	height:3px;
-	background:url(../images/top-line.jpg) repeat-x;
-	overflow:hidden;
-	text-indent:-999px;
+  width:100%;
+  height:3px;
+  background:url(../images/top-line.jpg) repeat-x;
+  overflow:hidden;
+  text-indent:-999px;
 }
 
 header{
-	background:url('../images/bg-top.jpg') no-repeat top center;
-	background-size:cover;
-	height:780px;
-	position:relative;
+  background:url('../images/bg-top.jpg') no-repeat top center;
+  background-size:cover;
+  height:780px;
+  position:relative;
 }
 .logo-nav{
-	width:60%;
-	height:75px;
-	padding:25px 0 0 0;
-	margin:auto;
+  width:60%;
+  height:75px;
+  padding:25px 0 0 0;
+  margin:auto;
 }
 .logo{height:80px;float:left;width:205px;}
 .logo-nav nav{
-	width:400px;
-	height:35px;
-	float:right;
-	text-align:center;
-	margin:22px 0 0 0;
+  width:400px;
+  height:35px;
+  float:right;
+  text-align:center;
+  margin:22px 0 0 0;
 }
 .logo-nav nav ul li{display:inline;margin:0 20px 0 0;}
 .logo-nav nav ul li:last-child{margin:0;}
 .logo-nav nav ul li a{
-	font-size:14px;
-	color:#fff;
-	text-transform:uppercase;
-	font-weight:bold;
-	text-align:center;
-	position:relative;
-	display:inline-block;
-	padding:8px 14px;
+  font-size:14px;
+  color:#fff;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-align:center;
+  position:relative;
+  display:inline-block;
+  padding:8px 14px;
 }
 .logo-nav nav ul li a:hover{color:#fdca00;}
 .logo-nav nav ul li a:before{
-	content:"";
-	display:block;
-	width:0px;
-	height:0px;
-	position:absolute;
-	top:-3px;
-	left:-2px;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-ms-border-radius:3px;
-	-moz-border-radius:3px;
-	transform:scale(0);
-	-webkit-transform:scale(0);
-	-ms-transform:scale(0);
-	-moz-transform:scale(0);
-	-webkit-transition:transform 0.4s;
-	-moz-transition:transform 0.4s;
-	-o-transition:transform 0.4s;
-	-ms-transition:transform 0.4s;
-	transition:transform 0.4s;
+  content:"";
+  display:block;
+  width:0px;
+  height:0px;
+  position:absolute;
+  top:-3px;
+  left:-2px;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -ms-border-radius:3px;
+  -moz-border-radius:3px;
+  transform:scale(0);
+  -webkit-transform:scale(0);
+  -ms-transform:scale(0);
+  -moz-transform:scale(0);
+  -webkit-transition:transform 0.4s;
+  -moz-transition:transform 0.4s;
+  -o-transition:transform 0.4s;
+  -ms-transition:transform 0.4s;
+  transition:transform 0.4s;
 }
 .logo-nav nav ul li a:hover:before{
-	width:100%;
-	height:40px;
-	border:1px solid #fdca00;
-	transform:scale(1);
-	-webkit-transform:scale(1);
-	-ms-transform:scale(1);
-	-moz-transform:scale(1);
+  width:100%;
+  height:40px;
+  border:1px solid #fdca00;
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  -moz-transform:scale(1);
 }
 
 .computer{
-	background:url('../images/notebook.png') no-repeat top center;
-	height:630px;
-	margin:66px auto 0 auto;
-	padding:252px 0 0 0;
-	width:90%;
+  background:url('../images/notebook.png') no-repeat top center;
+  background-size: contain;
+  height:630px;
+  margin:66px auto 0 auto;
+  padding:252px 0 0 0;
+  width: 1080px;
 }
 .computer p{ 
-	color:#fff;
-	font-size: 50px;
-	font-weight: lighter;
-	text-align:center;
+  color:#fff;
+  font-size: 50px;
+  font-weight: lighter;
+  text-align:center;
 }
 .computer p span{
-	display:inline-block;
-	margin:40px auto 0 auto;
-	font-size:20px;
-	color:#fdca00;
-	text-align:center;
-	font-weight:bold;
-	text-transform:uppercase;
+  display:inline-block;
+  margin:40px auto 0 auto;
+  font-size:20px;
+  color:#fdca00;
+  text-align:center;
+  font-weight:bold;
+  text-transform:uppercase;
 }
 .computer p span a{color:#fdca00;position:relative;}
 .computer p span a:after{
-	content:"";
-	display:block;
-	position:absolute;
-	left:0;
-	bottom:0px;
-	width:100%;
-	height:2px;
-	background-color:#fdca00;
-	-webkit-transition:all 0.2s;
-	-moz-transition:all 0.2s;
-	-o-transition:all 0.2s;
-	-ms-transition:all 0.2s;
-	transition:all 0.2s;
+  content:"";
+  display:block;
+  position:absolute;
+  left:0;
+  bottom:0px;
+  width:100%;
+  height:2px;
+  background-color:#fdca00;
+  -webkit-transition:all 0.2s;
+  -moz-transition:all 0.2s;
+  -o-transition:all 0.2s;
+  -ms-transition:all 0.2s;
+  transition:all 0.2s;
 }
 .computer p span a:hover:after{width:0;}
 
@@ -151,12 +152,12 @@ header{
 
 .about{ width:100%; height:165px; padding:115px 0; }
 .about p, .services p{
-	text-align:center;
-	width:50%;
-	margin:30px auto 0 auto;
-	font-size:20px;
-	color:#797767;
-	line-height:30px;
+  text-align:center;
+  width:50%;
+  margin:30px auto 0 auto;
+  font-size:20px;
+  color:#797767;
+  line-height:30px;
 }
 .about p a{color:#ec524b;}
 
@@ -165,48 +166,51 @@ header{
 /* SERVIÇOS ****************************/
 
 .services{
-	width:100%;
-	height:610px;
-	padding:60px 0 115px 0;
-	background-color:#f4f3ee;
+  width:100%;
+  height: auto;
+  padding:60px 0 100px 0;
+  background-color:#f4f3ee;
 }
-
+.services:after{ 
+  clear: both;
+  content:'';
+  display: block;
+  float: none;
+}
 .services-description{width:50%;margin:40px auto 0 auto;display:table;}
 .services-description ul{width:100%;margin:auto;}
 .services-description ul li{
-	display:inline-block;
-	width:21%;
-	margin:0 18% 0 0;
-	text-align:center;
-	float:left;
-	min-width:150px;
+  width:21%;
+  display:inline-block;
+  margin:20px 12% 0 0;
+  text-align:center;
+  min-width:150px;
 }
+.services-description ul li:last-child{ margin:0; }
 .services-description ul li figure{
-	width:117px;
-	height:126px;
-	margin:auto;
-	-webkit-transition:all 0.5s ease-in-out;
-	-moz-transition:all 0.5s ease-in-out;
-	-o-transition:all 0.5s ease-in-out;
-	-ms-transition:all 0.5s ease-in-out;
-	transition:all 0.5s ease-in-out;
+  width:117px;
+  height:126px;
+  margin:auto;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  -ms-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
 }
-.services-description ul li:last-child{margin:0;}
-.services-description ul li:first-child{margin:0 18% 0 1%;}
 .services-description ul li h3{
-	width:100%;
-	font-size:22px;
-	color:#797767;
-	margin:30px 0 0 0;
-	font-weight:lighter;
+  width:100%;
+  font-size:22px;
+  color:#797767;
+  margin:30px 0 0 0;
+  font-weight:lighter;
 }
 .services-description ul li p{
-	color:#797767;
-	font-size:16px;
-	margin:15px 0 0 0;
-	line-height:20px;
-	text-align: center;
-	width:100%;
+  color:#797767;
+  font-size:16px;
+  margin:15px 0 0 0;
+  line-height:20px;
+  text-align: center;
+  width:100%;
 }
 
 /* SERVIÇOS ****************************/
@@ -214,56 +218,56 @@ header{
 /* APP ****************************/
 
 .product{
-	width:100%;
-	height:900px;
-	background:url('../images/bg-app.jpg') no-repeat center;
-	background-size:cover;
-	position:relative;
-	overflow:hidden;
+  width:100%;
+  height: auto;
+  background:url('../images/bg-app.jpg') no-repeat center;
+  background-size:cover;
+  position:relative;
+  overflow:hidden;
 }
-.product-content{margin:14% auto 0 auto;width:80%;}
+.product-content{margin: 120px auto 0 auto;width:80%;}
 .product-content h2{
-	width:400px;
-	background:url('../images/ios-android-icons.png') no-repeat right;
-	font-size:48px;
-	text-transform:uppercase;
-	color:#5a4f4a;
-	font-weight:normal;
-	text-align:left;
+  width:400px;
+  background:url('../images/ios-android-icons.png') no-repeat right;
+  font-size:48px;
+  text-transform:uppercase;
+  color:#5a4f4a;
+  font-weight:normal;
+  text-align:left;
 }
 .product-content p{
-	font-size:28px;
-	color:#fff;
-	max-width:700px;
-	margin:20px 0 0 0;
-	width:50%;
+  color:#fff;
+  font-size:28px;
+  max-width:700px;
+  margin:20px 0 0 0;
+  text-shadow: -1px 0px 3px rgba(20, 20, 20, 0.9);
+  width:50%;
 }
 
 .app{
-	width:100%;
-	height:800px;
-	background-color:hsla(0, 0%, 0%, 0.35);
-	position:relative;
-	margin:120px 0 0 0;  
+  width:100%;
+  background-color:hsla(0, 0%, 0%, 0.35);
+  position:relative;
+  margin:120px 0 0 0;  
 }
-.app-content{margin:auto;padding:80px 0 0 0;width:80%;}
-.app-content p{color:#fff;font-size:15px;max-width:700px;}
+.app-content{margin:auto; padding:80px 0; width:80%;}
+.app-content p{color:#fff; font-size:15px; max-width:700px;}
 .app-content ul{margin:40px 0 0 0;}
 .app-content ul li{
-	display:inline-block;
-	margin:0 30px 0 0;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
-	-ms-transition:all 0.5s;
-	transition:transition:all 0.5s;
+  display:inline-block;
+  margin:0 30px 0 0;
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  -o-transition:all 0.5s;
+  -ms-transition:all 0.5s;
+  transition: all 0.5s;
 }
 
 .app-content ul li:hover{
-	transform:scale(1.1);
-	-webkit-transform:scale(1.1);
-	-ms-transform:scale(1.1);
-	-moz-transform:scale(1.1);
+  transform:scale(1.1);
+  -webkit-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  -moz-transform:scale(1.1);
 }
 
 /* APP ****************************/
@@ -271,77 +275,83 @@ header{
 /* CONTATO ****************************/
 
 .contact{
-	width:100%;
-	height:715px;
-	background-color:#ec524b;
-	padding:85px 0 0 0;
+  width:100%;
+  height: auto;
+  background-color:#ec524b;
+  padding:85px 0 85px 0;
+}
+.contact:after{ 
+  clear: both;
+  content:'';
+  display: block;
+  float: none;
 }
 .contact-content{margin:auto;width:80%;}
 .contact-content h2{
-	text-align:center;
-	margin:30px auto 0 auto;
-	font-size:38px;
-	color:#fff;
+  text-align:center;
+  margin: 0 auto 10px auto;
+  font-size:38px;
+  color:#fff;
 }
 .contact-content p{
-	text-align:center;
-	width:50%;
-	margin:auto;
-	font-size:20px;
-	color:#ffa4a0;
-	line-height:30px;
+  text-align:center;
+  width:50%;
+  margin:auto;
+  font-size:20px;
+  color:#ffa4a0;
+  line-height:30px;
 }
 .form-content{
-	width:61%;
-	margin:40px auto 0 auto;
-	background:url('../images/bg-contact.png') no-repeat center top;
-	background-size:100%;
-	position:relative; 
+  width:61%;
+  margin:40px auto 0 auto;
+  background:url('../images/bg-contact.png') no-repeat center top;
+  background-size:100%;
+  position:relative; 
 }
 .form-content fieldset{
-	width:61%;
-	max-width:475px;
-	margin:auto;
-	padding:10px 0 0 0;
+  width:61%;
+  max-width:475px;
+  margin:auto;
+  padding:10px 0 0 0;
 }
 .form-content input[type=text], .form-content textarea{
-	width:100%;
-	margin:0 0 10px 0;
-	background-color:#fff;
-	padding:10px;
-	border:none;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-ms-border-radius:3px;
-	-moz-border-radius:3px;
-	color:#878787;
-	max-width:450px;
+  width:100%;
+  margin:0 0 10px 0;
+  background-color:#fff;
+  padding:10px;
+  border:none;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -ms-border-radius:3px;
+  -moz-border-radius:3px;
+  color:#878787;
+  max-width:450px;
 }
 
 ::-webkit-input-placeholder{color:#ec524b;}
 :-moz-placeholder{color:#ec524b;}
-::-moz-placeholder{color:#ec524b;}=
+::-moz-placeholder{color:#ec524b;}
 :-ms-input-placeholder{color:#ec524b;}
 
 .form-content button{
-	background-color:#fdca00 !important;
-	color:#ec524b;
-	width:100%;
-	border:none;
-	max-width:450px;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-ms-border-radius:3px;
-	-moz-border-radius:3px;
-	padding:10px 0;
-	text-transform:uppercase;
-	font-size:15px;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
-	-ms-transition:all 0.5s;
-	transition:transition:all 0.5s;
-	cursor:pointer;
+  background-color:#fdca00 !important;
+  color:#ec524b;
+  width:100%;
+  border:none;
+  max-width:450px;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -ms-border-radius:3px;
+  -moz-border-radius:3px;
+  padding:10px 0;
+  text-transform:uppercase;
+  font-size:15px;
+  -webkit-transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  -o-transition:all 0.5s;
+  -ms-transition:all 0.5s;
+  transition:all 0.5s;
+  cursor:pointer;
 }
 
 .form-content button:hover{background-color:#eaff00;}
@@ -350,467 +360,340 @@ header{
 
 /* RODAPE ****************************/
 
-footer{height:auto;background-color:#d4463f; padding:40px 0 0 0;}
+footer{ height:auto;background-color:#d4463f; padding:40px 0 0 0;}
 footer:after{
-	content: '';
-	display: block;
-	background:url('../images/footer-line.png') repeat-x;
-	height:10px;
-	margin:20px 0 0 0;
-	overflow:hidden;
-	width:100%;
+  content: '';
+  display: block;
+  background:url('../images/footer-line.png') repeat-x;
+  height:10px;
+  margin:20px 0 0 0;
+  overflow:hidden;
+  width:100%;
 }
 
-.footer-content{height:150px;}
-.footer-content .skype-button {
-	margin: -20px auto 0 auto;
-	width: 150px;
-}
+.footer-content{height:150px;} 
+.footer-content .skype-button {margin: -20px auto 0 auto; width: 150px;}
 
 .footer-contact{
-	color:#ffa4a0;
-	font-size:14px;
-	margin:10px auto;
-	text-align:center;
-	width:100%;
-	height: 30px;
+  color:#ffa4a0;
+  font-size:14px;
+  margin:10px auto;
+  text-align:center;
+  width:100%;
+  height: 30px;
 }
-
 
 /* RODAPE ****************************/
-
-@media screen and (max-width:1469px) {
-	.services-description ul li{margin:0 16% 0 0;}
-	.services-description ul li:first-child{margin:0 17% 0 1%;}
+@media screen and (max-width:1250px){
+  .services-description{display: block; margin: 20px auto; width: 800px;}
+  .services-description ul li {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 150px;
+    padding: 0 47px;
+    vertical-align: top;
+    width: 21%;
+  }
+}
+@media screen and (max-width:1080px){
+  header { height: 680px; }
+  .computer { 
+    display: block;
+    margin: 0 auto;
+    width: 1024px !important; 
+  }
+  .computer p{ font-size: 40px !important;}
 }
 
-@media screen and (max-width:1403px){
-	.services-description ul li{margin:0 14% 0 0;}
-	.services-description ul li:first-child{margin:0 16% 0 1%;}
+@media screen and (max-width:1028px){
+  header{height:688px;}
+
+  .logo-nav{ margin:0px auto 10px auto; padding: 25px 0 0 0; width:70%; }
+
+  .logo{ height:80px; width:200px;}
+
+  .logo-nav nav{ margin:20px auto 0 auto; width:382px;}
+  .logo-nav nav ul li{display:inline;margin:0 10px 0 0;}
+  .logo-nav nav ul li a{font-size:15px;text-decoration: underline;}
+
+  .computer { 
+    display: block;
+    margin: 44px auto 0 auto;
+    padding:262px 0 0 0; 
+    width: 960px !important; 
+  }
+  .computer p{ font-size: 42px;}
+  .computer p span{margin:20px auto 0 auto;}
+  .computer p span a{color:#fdca00;position:relative;}
+  .computer p span a:hover:after{width:0;}
+  
+  .about p, .services p { width: 68%}
+  .about{ height:200px; width:100%;}
+  .about p a{ text-decoration: underline; }
+
+  .form-content{width: 80%;}
+  .form-content fieldset{ width: 100%;}
 }
 
-@media screen and (max-width:1370px){
-	.product-content p{text-shadow: 1px 1px 3px rgba(50, 50, 50, .8);}
+@media screen and (max-width: 980px){
+  header{height:608px;}
+  .computer { 
+    display: block;
+    margin: 74px auto 0 auto;
+    padding:202px 0 0 0; 
+    width: 768px !important; 
+  }
+
+  .computer p{ font-size: 32px !important; }
+
+  .services-description { width: 100%;}
+  .services-description ul {margin:auto!important; }
+  .services-description ul li{
+      display:block;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      float:none !important;
+      min-width:300px!important;
+      width:90% !important;
+  }
+  .services-description ul li h3{ font-size:30px; margin:15px 0 0 0;}
+  .services-description ul li p{ 
+      font-size:18px;
+      margin: 10px auto;
+      text-align: center;
+      width:40%;
+  }
 }
 
-@media screen and (max-width:1345px){
-	.services-description ul li{margin:0 12% 0 0;}
-	.services-description ul li:first-child{margin:0 14% 0 1%;}
+@media screen and (max-width:850px){
+  header{background-size:cover; height:640px; position:relative;}
+
+  h1.logo{
+      display: block;
+      clear: both;
+      height:80px;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      text-align:center;
+      width:100%;
+  }
+
+  .logo-nav nav{ margin:30px auto 0 auto; width:100%;}
+  .logo-nav nav ul li{display:inline; margin:0;}
+  .logo-nav nav ul li a{font-size:15px;}
+  
+  .computer { width: 750px !important; padding: 182px 0 0 0; margin-top: 114px;}
+
+  .services{ height: auto; padding:100px 0 100px 0; }
+  .services-description ul{ margin:auto!important; }
+  .services-description ul li{
+      display:block;
+      width:90%!important;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      min-width:300px!important;
+      padding: 0 0px;
+      float:none!important;
+  }
+  .services-description ul li p{font-size:18px;}
 }
 
-@media screen and (max-width:1272px){
-	.services-description ul li {margin:0 10% 0 0;width:21%;}
-}
+@media screen and (max-width:768px){
 
-@media screen and (max-width:1242px){
-	.services-description ul li{margin:0 10% 0 0;width:21%;}
-	.services-description ul li:first-child{margin:0 12% 0 1%;}
-}
+  header{background-size:cover;height:640px;position:relative;}
 
-@media screen and (max-width:1209px){
-	.computer{background-size: 100%;}
-	.computer p { font-size: 40px;}
-	.services-description ul li{margin:0 8% 0 0;}
-	.services-description ul li:first-child{margin:0 10% 0 1%;}
-}
+  .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo{height:80px;text-align:center;width:100%;}
+  .logo-nav nav{margin:30px auto 0 auto;width:100%;}
+  .logo-nav nav ul li{display:inline;margin:0;}
+  .logo-nav nav ul li a{font-size:15px;padding:8px 10px;}
 
-@media screen and (max-width:1150px){
-	.services-description ul li{margin:0 5% 0 0;}
-	.services-description ul li:first-child{margin:0 5% 0 1%;}
-}
+  .computer{
+    background: none no-repeat top center;
+    margin:80px auto 0 auto;
+    padding:0 !important; 
+    width:90% !important;
+  }
+  .computer p{font-size:38px;}
+  .computer p span{margin:40px auto 0 auto;}
 
-@media screen and (max-width:1051px){
-	.services{ height:800px; }
-	.services-description ul li { margin:0 3% 0 0; }
-	.services-description ul li:first-child{margin:0 3% 0 0;}
-	.services-description ul li h3 { font-size:19px;}
-	.services-description ul li p {font-size:13px;}
-}
+  .about p, .services p { width: 72%; }
 
-@media screen and (max-width:1260px){
-	header{height:788px;}
-}
+  .services-description ul{ margin:0 auto!important;}
+  .services-description ul li{
+      display: block;
+      float:none !important;
+      margin:10px auto 30px auto!important;
+      min-width:300px !important;
+      text-align:center;
+      width:90% !important;
+  }
 
-@media screen and (max-width:1219px){
-	header{height:777px;}
-}
+  .product-content h2{font-size:40px;width:335px;}
+  .product-content p{color:#FFF;}
 
-@media screen and (max-width:1200px){
-	header{height:771px;}
-}
+  .app-content{margin:auto; width:80%;}
 
-@media screen and (max-width:1160px){
-	header{height:762px;}
-}
-
-@media screen and (max-width:1125px){
-	.computer p span{margin:30px auto 0 auto;}
-	header{height:753px;}
-}
-
-@media screen and (max-width:1100px){
-	.computer p span{margin:20px auto 0 auto;}
-	header{height:705px;}
-}
-
-@media screen and (max-width:1073px){
-	.computer p span{margin:20px auto 0 auto;}
-	header{height:699px;}
-}
-
-@media screen and (max-width:1052px){
-	.computer p span{margin:20px auto 0 auto;}
-	header{height:694px;}
-}
-
-@media screen and (max-width:1048px){
-	.logo-nav nav{width:350px;}
-
-	.logo-nav nav ul li{ display:inline; margin:0 5px 0 0; }
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{padding:8px 11px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
-
-}
-
-@media screen and (max-width:1024px){
-	header{height:688px;}
-
-	.computer {padding:162px 0 0 0; margin-top: 76px;}
-	.computer p{ font-size: 30px !important;}
-	.computer p span{margin:20px auto 0 auto;}
-	
-	.about p, .services p { width: 68%}
-	.about{ height:500px; padding:82px 0 38px 0;width:100%;}
-	.about p a{ text-decoration: underline; }
-
-	.form-content{width: 80%;}
-	.form-content fieldset{ width: 100%;}
-}
-
-@media screen and (max-width:999px){
-	header{background-size:cover;height:640px;position:relative;}
-	.logo-nav{
-		display: table;
-		margin:0px auto 10px auto;
-		padding: 25px 0 0 0;
-		width:60%;
-	}
-
-	.logo{height:80px;text-align:center;width:100%;}
-
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-
-	.logo-nav nav ul li{display:inline;margin:0 20px 0 0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:15px;text-decoration: underline;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
-
-	.computer p{font-size:42px; color #0F0;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-
-	.computer p span a:hover:after{width:0;}
-
-	.services{height:1400px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-	.services-description ul li h3{ font-size:30px; margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
-}
-
-@media screen and (max-width:815px){
-	header{background-size:cover;height:640px;position:relative;}
-
-	.logo{height:80px;text-align:center;width:100%;}
-
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:inline;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:15px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
-
-	.computer p{font-size:42px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-
-	.computer p span a:hover:after{width:0;}
-
-	.services{height:1400px;padding:100px 0 115px 0;}
-
-	.services-description ul{margin:auto!important;}
-
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
-}
-
-@media screen and (max-width:798px){
-	.app{margin:100px 0 0 0;}
-	.app-content{margin:auto;padding:65px 0 0 0;width:80%;}
-}
-
-@media screen and (max-width:633px){
-	header{background-size:cover;height:640px;position:relative;}
-
-	.logo-nav{display:table;padding:25px 0 0 0;width:60%;}
-	.logo{height:80px;text-align:center;width:100%;}
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:inline;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:15px;padding:8px 10px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
-
-	.computer{background:transparent!important;margin:80px auto 0 auto;padding:0!important;width:90%;}
-	.computer p{font-size:38px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-
-	.computer p span a:hover:after{width:0;}
-
-	.about p, .services p { width: 72%; }
-
-	.services{height:1400px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
-
-	.product-content h2{font-size:40px;width:335px;}
-	.product-content p{color:#5a4f4a;}
+  .contact-content p { width: 60%; }
+  .form-content{ background: none no-repeat center top; width: 98%;}
 }
 
 @media screen and (max-width:592px){
-	header{height:640px;background-size:cover;position:relative;}
+  header{height:640px;background-size:cover;position:relative;}
 
-	.logo-nav{display:table;padding:25px 0 0 0;width:60%;}
-	.logo{height:80px;text-align:center;width:100%;}
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:inline;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:15px;padding:8px 7px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
+  .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo-nav nav{margin:30px auto 0 auto;width:100%;}
+  .logo-nav nav ul li{display:inline;margin:0;}
+  .logo-nav nav ul li a{font-size:15px;padding:8px 7px;}
 
-	.computer{background:transparent!important;margin:80px auto 0 auto;padding:0!important;width:90%;}
-	.computer p{font-size:35px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-	.computer p span a:hover:after{width:0;}
+  .computer{background:transparent!important;margin:80px auto 0 auto;padding:0!important;width:90%;}
+  .computer p{font-size:35px;}
+  .computer p span{margin:40px auto 0 auto;}
 
-	.services{height:1400px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p {font-size:18px;}
+  .services-description ul{margin:auto!important;}
+  .services-description ul li{
+      display:block;
+      width:90%!important;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      min-width:300px!important;
+      float:none!important;
+  }
+  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
+  .services-description ul li p {font-size:18px;}
 
-	.product{height:1000px;}
-	.product-content h2{font-size:40px;width:335px;}
-	.product-content p{color:#5a4f4a;}
+  .app-content p{color:#fff;font-size:15px;max-width:700px;}
+  .app-content ul{margin:40px 0 0 0;}
 
-	.app{margin:120px 0 0 0;}
-	.app-content{margin:auto;padding:80px 0 0 0;width:80%;}
-	.app-content p{color:#fff;font-size:15px;max-width:700px;}
-	.app-content ul{margin:40px 0 0 0;}
-
-	.form-content{width: 98%;}
+  .contact-content p { margin: 10px 0; width: 95%; }
+  .form-content{width: 98%;}
 }
 
 @media screen and (max-width:562px){
-	header{background-size:cover;height:640px;position:relative;}
+  header{background-size:cover;height:640px;position:relative;}
 
-	.logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
 
-	.logo{height:80px;text-align:center;width:100%;}
+  .logo-nav nav{margin:30px auto 0 auto;width:100%;}
+  .logo-nav nav ul li{display:block!important;margin:0;}
+  .logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
 
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:block!important;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
+  .computer{background:transparent!important;margin:140px auto 0 auto;padding:0!important;width:90%;}
+  .computer p{font-size:35px;}
+  .computer p span{margin:40px auto 0 auto;}
 
-	.computer{background:transparent!important;margin:140px auto 0 auto;padding:0!important;width:90%;}
-	.computer p{font-size:35px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-	.computer p span a:hover:after{width:0;}
+  .services{height:auto;padding:100px 0 115px 0;}
+  .services-description ul{margin:auto!important;}
+  .services-description ul li{
+      display:block;
+      width:90%!important;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      min-width:300px!important;
+      float:none!important;
+  }
+  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
 
-	.services{height:1600px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
-
-	.product-content h2{font-size:40px;width:335px;}
-	.product-content p{color:#5a4f4a;}
-	.product{height:1100px;}
-
-	.app-content{margin:auto;padding:80px 0 0 0;width:80%;}
-	.app-content p{color:#fff;font-size:15px;max-width:700px;}
-	.app-content ul{margin:40px 0 0 0;}
+  .app-content p{color:#fff;font-size:15px;max-width:700px;}
+  .app-content ul{margin:40px 0 0 0;}
+  .contact-content h2{ font-size:36px; }
+  .contact-content p { font-size:20px; }
 }
 
 @media screen and (max-width:531px){
-	header{background-size:cover;height:640px;position:relative;}
+  header{background-size:cover;height:640px;position:relative;}
 
-	.logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
 
-	.logo{height:80px;text-align:center;width:100%;}
-
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:block!important;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
+  .logo-nav nav{margin:30px auto 0 auto;width:100%;}
+  .logo-nav nav ul li{display:block!important;margin:0;}
+  .logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
 
 
-	.computer{background:transparent!important;margin:140px auto 0 auto;padding:0!important;width:90%;}
-	.computer p{font-size:32px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
+  .computer{background:transparent!important;margin:140px auto 0 auto;padding:0!important;width:90%;}
+  .computer p{font-size:32px;}
+  .computer p span{margin:40px auto 0 auto;}
 
-	.computer p span a:hover:after{width:0;}
+  .services{height:auto;padding:100px 0 115px 0;}
+  .services-description ul{margin:auto!important;}
+  .services-description ul li{
+      display:block;
+      width:90%!important;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      min-width:300px!important;
+      float:none!important;
+  }
+  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
 
-	.services{height:1600px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
+  .product-content{margin:10% auto 0 auto;width:90%;}
 
-	.product{height:1100px;}
-	.product-content{margin:10% auto 0 auto;width:90%;}
-	.product-content h2{font-size:40px;width:335px;}
-	.product-content p{color:#5a4f4a;}
-
-	.app-content{margin:auto;padding:80px 0 0 0;width:80%;}
-	.app-content p{font-size:15px;color:#fff;max-width:700px;}
-	.app-content ul{margin:40px 0 0 0;}
+  .app-content p{font-size:15px;color:#fff;max-width:700px;}
 }
 
 @media screen and (max-width:490px){
-	header{height:640px;background-size:cover;position:relative;}
+  header{height:640px;background-size:cover;position:relative;}
 
-	.logo-nav{display:table;padding:25px 0 0 0;width:60%;}
-	.logo{height:80px;text-align:center;width:100%;}
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:block!important;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}	
-	.logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
-	
-	.computer{background:transparent!important;margin:140px auto 0 auto;padding:0!important;width:90%;}
-	.computer p{font-size:29px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-	.computer p span a:hover:after{width:0;}
+  .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo-nav nav{margin:30px auto 0 auto;width:100%;}
+  .logo-nav nav ul li{display:block!important;margin:0;}   
+  .logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
+  
+  .computer{background:transparent!important;margin:140px auto 0 auto;padding:0!important;width:90%;}
+  .computer p{font-size:29px;}
+  .computer p span{margin:40px auto 0 auto;}
 
-	.services{height:1650px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
+  .services{height:auto;padding:100px 0 115px 0;}
+  .services-description ul{margin:auto!important;}
+  .services-description ul li{
+      display:block;
+      width:90%!important;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      min-width:300px!important;
+      float:none!important;
+  }
+  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
 
-	.product{height:1100px;}
-	.product-content h2{font-size:40px;width:335px;}
-	.product-content p{color:#5a4f4a;}
+  .app-content p{color:#fff;font-size:15px;max-width:700px;}
 
-	.app-content{margin:auto;padding:80px 0 0 0;width:80%;}
-	.app-content p{color:#fff;font-size:15px;max-width:700px;}
-	.app-content ul{margin:40px 0 0 0;}
-
+  .contact-content h2{ font-size:30px; }
+  .contact-content p { font-size:20px; }
 }
 
 @media screen and (max-width:420px){
-	header{height:640px;background-size:cover;position:relative;}
+  header{height:640px;background-size:cover;position:relative;}
 
-	.logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
+  .logo-nav nav{margin:30px auto 0 auto;width:100%;}
+  .logo-nav nav ul li{display:block!important;margin:0;}
+  .logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
 
-	.logo{height:80px;text-align:center;width:100%;}
-	.logo-nav nav{margin:30px auto 0 auto;width:100%;}
-	.logo-nav nav ul li{display:block!important;margin:0;}
-	.logo-nav nav ul li:last-child{margin:0;}
-	.logo-nav nav ul li a{font-size:20px;padding:8px 7px;}
-	.logo-nav nav ul li a:hover{color:#fdca00;}
+  .computer {background: transparent!important;margin:140px auto 0 auto;padding:0!important;}
+  .computer p{font-size:29px;}
+  .computer p span{margin:40px auto 0 auto;}
 
-	.computer {background: transparent!important;margin:140px auto 0 auto;padding:0!important;}
-	.computer p{font-size:29px;}
-	.computer p span{margin:40px auto 0 auto;}
-	.computer p span a{color:#fdca00;position:relative;}
-	.computer p span a:hover:after{width:0;}
+  .services{height:auto;padding:100px 0 115px 0;}
+  .services-description ul{margin:auto!important;}
+  .services-description ul li{
+      display:block;
+      width:90%!important;
+      margin:10px auto 30px auto!important;
+      text-align:center;
+      min-width:300px!important;
+      float:none!important;
+  }
 
-	.services{height:1650px;padding:100px 0 115px 0;}
-	.services-description ul{margin:auto!important;}
-	.services-description ul li{
-		display:block;
-		width:90%!important;
-		margin:10px auto 30px auto!important;
-		text-align:center;
-		min-width:300px!important;
-		float:none!important;
-	}
+  .product-content{margin:10% auto 0 auto;width:90%;}
+  .product-content h2{background-position: 185px -5px;font-size:30px;width:335px;}
+  .product-content p{color:#FFF; width:70%; text-shadow: 1px 1px 3px rgba(50, 50, 50, .5);}
 
-	.services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-	.services-description ul li p{font-size:18px;}
+  .app-content ul{margin:40px 0 0 0;}
+  .app-content ul li{ display:block; margin:0 0 15px 0; }
 
-	.product{height:1200px;}
-	.product-content{margin:10% auto 0 auto;width:90%;}
-	.product-content h2{background-position: 185px -5px;font-size:30px;width:335px;}
-	.product-content p{color:#5a4f4a; width:70%; text-shadow: 1px 1px 3px rgba(50, 50, 50, .5);}
-
-	.app-content{margin:auto;padding:80px 0 0 0;width:80%;}
-	.app-content p{color:#fff;font-size:15px;max-width:700px;}
-	.app-content ul{margin:40px 0 0 0;}
-	.app-content ul li{ display:block; margin:0 0 15px 0; }
-
-	.contact{height:850px;width:100%;}
-	.contact-content p{ padding: 10px 0 0 0; width: 98%; }
+  .contact{height:auto; width:100%;}
+  .contact-content h2{ font-size: 28px; }
+  .contact-content p{  font-size: 20px; padding: 10px 0 0 0; width: 98%; }
 }
