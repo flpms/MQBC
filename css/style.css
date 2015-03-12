@@ -150,7 +150,13 @@ header{
 
 /* SOBRE ****************************/
 
-.about{ width:100%; height:165px; padding:115px 0; }
+.about{ width:100%; height:auto; padding:115px 0; }
+.about:after{ 
+  clear: both;
+  content:'';
+  display: block;
+  float: none;
+}
 .about p, .services p{
   text-align:center;
   width:50%;
@@ -177,40 +183,25 @@ header{
   display: block;
   float: none;
 }
-.services-description{width:50%;margin:40px auto 0 auto;display:table;}
-.services-description ul{width:100%;margin:auto;}
-.services-description ul li{
-  width:21%;
-  display:inline-block;
-  margin:20px 12% 0 0;
-  text-align:center;
-  min-width:150px;
-}
-.services-description ul li:last-child{ margin:0; }
-.services-description ul li figure{
-  width:117px;
-  height:126px;
-  margin:auto;
-  -webkit-transition:all 0.5s ease-in-out;
-  -moz-transition:all 0.5s ease-in-out;
-  -o-transition:all 0.5s ease-in-out;
-  -ms-transition:all 0.5s ease-in-out;
-  transition:all 0.5s ease-in-out;
-}
-.services-description ul li h3{
-  width:100%;
-  font-size:22px;
-  color:#797767;
-  margin:30px 0 0 0;
-  font-weight:lighter;
-}
-.services-description ul li p{
-  color:#797767;
-  font-size:16px;
-  margin:15px 0 0 0;
-  line-height:20px;
+
+.services-description{ display: block; margin:40px auto 0 auto; text-align: center; width:50%; }
+
+.services-card {
+  display: inline-block;
+  margin: 0 6px;
+  padding: 30px 0;
   text-align: center;
-  width:100%;
+  vertical-align: top;
+  width: 198px;
+}
+.services-card h3, .services-card p { color:#797767; }
+.services-card h3 { font-size:22px; }
+.services-card p {
+  font-size:16px;
+  line-height:20px;
+  margin:15px 0 0 0;
+  text-align: center;
+  width: 100%;
 }
 
 /* SERVIÇOS ****************************/
@@ -251,7 +242,7 @@ header{
   margin:120px 0 0 0;  
 }
 .app-content{margin:auto; padding:80px 0; width:80%;}
-
+.app-content p{color:#fff; font-size:15px; max-width:700px;}
 .app-content ul{margin:40px 0 0 0;}
 .app-content ul li{
   display:inline-block;
@@ -385,29 +376,16 @@ footer:after{
 
 /* RODAPE ****************************/
 @media screen and (max-width:1250px){
-  .services-description{display: block; margin: 20px auto; width: 800px;}
-  .services-description ul li {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    min-width: 150px;
-    padding: 0 47px;
-    vertical-align: top;
-    width: 21%;
-  }
+  .services-description{ display: block; margin: 20px auto; width: 800px;}
 }
 @media screen and (max-width:1080px){
   header { height: 680px; }
-  .computer { 
-    display: block;
-    margin: 0 auto;
-    width: 1024px !important; 
-  }
+  .computer { display: block; margin: 0 auto; width: 1024px !important; }
   .computer p{ font-size: 40px !important;}
 }
 
 @media screen and (max-width:1028px){
-  header{height:688px;}
+  header{ height:688px; }
 
   .logo-nav{ margin:0px auto 10px auto; padding: 25px 0 0 0; width:70%; }
 
@@ -429,7 +407,8 @@ footer:after{
   .computer p span a:hover:after{width:0;}
   
   .about p, .services p { width: 68%}
-  .about{ height:200px; width:100%;}
+  .services-card p{ width: 100%; }
+
   .about p a{ text-decoration: underline; }
 
   .form-content{width: 80%;}
@@ -448,22 +427,6 @@ footer:after{
   .computer p{ font-size: 32px !important; }
 
   .services-description { width: 100%;}
-  .services-description ul {margin:auto!important; }
-  .services-description ul li{
-      display:block;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      float:none !important;
-      min-width:300px!important;
-      width:90% !important;
-  }
-  .services-description ul li h3{ font-size:30px; margin:15px 0 0 0;}
-  .services-description ul li p{ 
-      font-size:18px;
-      margin: 10px auto;
-      text-align: center;
-      width:40%;
-  }
 }
 
 @media screen and (max-width:850px){
@@ -487,17 +450,6 @@ footer:after{
   .computer { width: 750px !important; padding: 182px 0 0 0; margin-top: 114px;}
 
   .services{ height: auto; padding:100px 0 100px 0; }
-  .services-description ul{ margin:auto!important; }
-  .services-description ul li{
-      display:block;
-      width:90%!important;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      min-width:300px!important;
-      padding: 0 0px;
-      float:none!important;
-  }
-  .services-description ul li p{font-size:18px;}
 }
 
 @media screen and (max-width:768px){
@@ -520,16 +472,7 @@ footer:after{
   .computer p span{margin:40px auto 0 auto;}
 
   .about p, .services p { width: 72%; }
-
-  .services-description ul{ margin:0 auto!important;}
-  .services-description ul li{
-      display: block;
-      float:none !important;
-      margin:10px auto 30px auto!important;
-      min-width:300px !important;
-      text-align:center;
-      width:90% !important;
-  }
+  .services-card p{ width: 100%; }
 
   .product-content h2{font-size:40px;width:335px;}
   .product-content p{color:#FFF;}
@@ -552,18 +495,6 @@ footer:after{
   .computer p{font-size:35px;}
   .computer p span{margin:40px auto 0 auto;}
 
-  .services-description ul{margin:auto!important;}
-  .services-description ul li{
-      display:block;
-      width:90%!important;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      min-width:300px!important;
-      float:none!important;
-  }
-  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
-  .services-description ul li p {font-size:18px;}
-
   .app-content ul{margin:40px 0 0 0;}
 
   .contact-content p { margin: 10px 0; width: 95%; }
@@ -584,16 +515,6 @@ footer:after{
   .computer p span{margin:40px auto 0 auto;}
 
   .services{height:auto;padding:100px 0 115px 0;}
-  .services-description ul{margin:auto!important;}
-  .services-description ul li{
-      display:block;
-      width:90%!important;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      min-width:300px!important;
-      float:none!important;
-  }
-  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
 
   .app-content ul{margin:40px 0 0 0;}
   .contact-content h2{ font-size:36px; }
@@ -615,16 +536,6 @@ footer:after{
   .computer p span{margin:40px auto 0 auto;}
 
   .services{height:auto;padding:100px 0 115px 0;}
-  .services-description ul{margin:auto!important;}
-  .services-description ul li{
-      display:block;
-      width:90%!important;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      min-width:300px!important;
-      float:none!important;
-  }
-  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
 
   .product-content{margin:10% auto 0 auto;width:90%;}
 }
@@ -642,16 +553,6 @@ footer:after{
   .computer p span{margin:40px auto 0 auto;}
 
   .services{height:auto;padding:100px 0 115px 0;}
-  .services-description ul{margin:auto!important;}
-  .services-description ul li{
-      display:block;
-      width:90%!important;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      min-width:300px!important;
-      float:none!important;
-  }
-  .services-description ul li h3{font-size:30px;margin:15px 0 0 0;}
 
   .contact-content h2{ font-size:30px; }
   .contact-content p { font-size:20px; }
@@ -670,15 +571,6 @@ footer:after{
   .computer p span{margin:40px auto 0 auto;}
 
   .services{height:auto;padding:100px 0 115px 0;}
-  .services-description ul{margin:auto!important;}
-  .services-description ul li{
-      display:block;
-      width:90%!important;
-      margin:10px auto 30px auto!important;
-      text-align:center;
-      min-width:300px!important;
-      float:none!important;
-  }
 
   .product-content{margin:10% auto 0 auto;width:90%;}
   .product-content h2{background-position: 185px -5px;font-size:30px;width:335px;}
