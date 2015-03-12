@@ -333,7 +333,7 @@ header{
 ::-moz-placeholder{color:#ec524b;}
 :-ms-input-placeholder{color:#ec524b;}
 
-.form-content button{
+.form-content-button{
   background-color:#fdca00 !important;
   color:#ec524b;
   width:100%;

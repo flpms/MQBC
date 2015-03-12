@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 			options: {
 				banner: '/* == Foi assim mesmo == */'
 			},
-			dist: {
+			js: {
 				files: {
 					'js/combined.min.js': ['js/combined.js']
 				}
