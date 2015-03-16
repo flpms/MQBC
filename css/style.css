@@ -231,7 +231,7 @@ header{
 
 /* APP ****************************/
 
-.product{
+.product {
   width:100%;
   height: auto;
   background:url('../images/bg-app.jpg') no-repeat center;
@@ -552,7 +552,12 @@ footer:after{
 }
 
 @media screen and (max-width:562px){
-  header{background-size:cover;height:640px;position:relative;}
+  header{
+    background:url('../images/bg-top.jpg') no-repeat -900px center;
+    background-size: 150%;
+    height:640px;
+    position:relative;
+  }
 
   .logo-nav{display:table;padding:25px 0 0 0;width:60%;}
 
@@ -565,6 +570,11 @@ footer:after{
   .computer p span{margin:40px auto 0 auto;}
 
   .services{height:auto;padding:100px 0 115px 0;}
+
+
+  .product { 
+    background:url('../images/bg-app.jpg') no-repeat -950px 0;
+  }
 
   .app-content ul{margin:40px 0 0 0;}
   .contact-content h2{ font-size:36px; }
