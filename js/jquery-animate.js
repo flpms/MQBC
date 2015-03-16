@@ -4,3 +4,11 @@ window.onload = function() {
 		$('html, body').animate({scrollTop: $('#'+locationLink).offset().top }, 1000);
 	});
 };
+
+window.onscroll = function () {
+	if (this.scrollY > 490) {
+		$('.btn-back-top').addClass('on');
+	} else {
+		$('.btn-back-top').removeClass('on');
+	}
+};

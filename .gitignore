@@ -216,3 +216,8 @@ pip-log.txt
 .mr.developer.cfg
 
 node_modules/
+server.js
+combined.js
+jquery-1.11.2.min.js
+Gruntfile.js
+dist/
