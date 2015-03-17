@@ -127,17 +127,17 @@ header{
 
 .btn-back-top{ display: none; }
 .btn-back-top span{ visibility: hidden; }
-  .btn-back-top.on {
-    background: url('../images/back-top.png');
-    background-size: contain;
-    bottom: 5px;
-    display: block;
-    height: 46px;
-    position: fixed;
-    right: 5px;
-    width: 46px;
-    z-index: 999;
-  }
+.btn-back-top.on {
+  background: url('../images/back-top.png');
+  background-size: contain;
+  bottom: 5px;
+  display: block;
+  height: 46px;
+  position: fixed;
+  right: 5px;
+  width: 46px;
+  z-index: 999;
+}
   
 .computer{
   background:url('../images/notebook.png') no-repeat top center;
@@ -421,11 +421,16 @@ footer:after{
 @media screen and (max-width:1025px) {
   header{ height:688px; }
 
-  .logo-nav{ margin:0px auto 10px auto; padding: 25px 0 0 0; width:70%; }
+  .logo-nav{ 
+    float: none !important;
+    margin:0px auto 10px auto;
+    padding: 25px 0 35px 0;
+    width:70%;
+  }
 
   .logo{ height:80px; width:200px; float: none; margin: 0 auto;}
 
-  .logo-nav nav{ margin:20px auto 0 auto; width:382px;}
+  .logo-nav nav{ float: none; margin:20px auto 0 auto; width:382px;}
   .logo-nav nav ul li{display:inline;margin:0 10px 0 0;}
   .logo-nav nav ul li a{font-size:15px;text-decoration: underline;}
 
@@ -474,7 +479,7 @@ footer:after{
       margin-left: auto;
       margin-right: auto;
       text-align:center;
-      width:100%;
+      width:154px;
   }
 
   .logo-nav nav{ margin:30px auto 0 auto; width:100%;}
