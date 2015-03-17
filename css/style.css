@@ -127,7 +127,18 @@ header{
 
 .btn-back-top{ display: none; }
 .btn-back-top span{ visibility: hidden; }
-
+  .btn-back-top.on {
+    background: url('../images/back-top.png');
+    background-size: contain;
+    bottom: 5px;
+    display: block;
+    height: 46px;
+    position: fixed;
+    right: 5px;
+    width: 46px;
+    z-index: 999;
+  }
+  
 .computer{
   background:url('../images/notebook.png') no-repeat top center;
   background-size: contain;
@@ -494,18 +505,6 @@ footer:after{
   }
   .computer p{font-size:38px;}
   .computer p span{margin:40px auto 0 auto;}
-
-  .btn-back-top.on {
-    background: url('../images/back-top.png');
-    background-size: contain;
-    bottom: 5px;
-    display: block;
-    height: 46px;
-    position: fixed;
-    right: 5px;
-    width: 46px;
-    z-index: 999;
-  }
 
   .about p, .services p { width: 72%; }
   .services-card p{ width: 100%; }
